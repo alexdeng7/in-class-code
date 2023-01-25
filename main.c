@@ -2,10 +2,13 @@
 #include <stdlib.h>
 #include "factorial.h"
 
-int main(int argc, char *argv[])
+typedef char* string;
+
+int main(int argc, string argv[])
 {
     int n;
-    char name[32];
+    char name[33];
+    //string exeName = argv[0];
     scanf("%[^\n]s", name);
     printf("%s\n", name);
     while (scanf("%d", &n) > 0)

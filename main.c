@@ -8,8 +8,9 @@ int main(int argc, string argv[])
 {
     int n;
     char name[33];
-    //string exeName = argv[0];
+    string exeName = argv[0];
     scanf("%[^\n]s", name);
+    printf("%s\n", exeName);
     printf("%s\n", name);
     while (scanf("%d", &n) > 0)
     {

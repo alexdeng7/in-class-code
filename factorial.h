@@ -4,4 +4,3 @@
 long factorial(int n);
 
 #endif
-  

@@ -7,11 +7,11 @@ typedef char* string;
 int main(int argc, string argv[])
 {
     int n;
-    char name[33];
+    char name[13];
     string exeName = argv[0];
     scanf("%[^\n]s", name);
     printf("%s\n", exeName);
-    printf("%s\n", name);
+    printf("%12s\n", name);
     while (scanf("%d", &n) > 0)
     {
         long fac = factorial(n);

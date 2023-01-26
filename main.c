@@ -11,6 +11,10 @@ int main(int argc, string argv[])
     string exeName = argv[0];
     scanf("%[^\n]s", name);
     printf("%s\n", exeName);
+    for (int i = 0; i < argc; i++)
+    {
+        printf("Command line argument %d is %s\n", i + 1, argv[i]);
+    }
     printf("%12s\n", name);
     while (scanf("%d", &n) > 0)
     {
